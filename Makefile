@@ -25,9 +25,9 @@ venv:
 	python3 -m venv env
 	. env/bin/activate
 
-venv2:
-	python2 -m venv env
-	. env/bin/activate
+conda2:
+	conda create -n py2 python=2.7
+	conda activate py2
 
 install:
 	python install.py
