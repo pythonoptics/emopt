@@ -31,3 +31,7 @@ conda2:
 
 install:
 	python install.py
+
+python2:
+	sudo ln -sf /usr/bin/python /usr/local/bin/pip
+	sudo ln -sf /usr/bin/pip /usr/local/bin/pip
