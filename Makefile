@@ -30,6 +30,7 @@ conda2:
 	conda activate py2
 
 install:
+	pip install requests
 	python install.py
 
 python2:
